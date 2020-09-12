@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tip Calculator</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="tipcalculator.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+		    <h1 class="col-sm-11 text-center">Meal Tip Calculator</h1>
+		</div>
+		<div class="col-sm-11 text-center">
+			<form>
+				<label for="getNumbers">Meal amount :</label>
+                <input type="number" id="getNumbers" name="getNumbers">
+			</form>
+			<br>
+			<form>
+				<label for="getPercent">Tip Percent: %</label>
+                <input type="number" id="getPercent" name="getPercent">
+			</form>
+			<button onclick="calculateTotal()" id="btn">Calculate</button>
+		</div>
+        <div class="col-sm-11 text-center" id="divButtons">
+        	<p id="getTipPercent"></p>
+        	<p id="userTotal"></p>
+			<p id="result"></p>
+			<span>Options :</span>
+			<button onclick="tipOne()" id="btnOne">5%</button>
+			<button onclick="tipTwo()" id="btnTwo">10%</button>
+			<button onclick="tipThree()" id="btnThree">15%</button>
+			<button onclick="tipFour()" id="btnFour">20%</button>
+		</div>
+	</div>
+
+</body>
+</html>

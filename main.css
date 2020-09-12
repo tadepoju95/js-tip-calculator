@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+body, html {
+	background-color: #2C2C29;
+	height: 0px;
+}
+
+h1 {
+	color: floralwhite;
+	transform: translateY(50%);
+}
+
+form {
+	color: floralwhite;
+	transform: translateY(140px);
+
+}
+
+button {
+	background-color: floralwhite;
+	padding: 15px;
+
+}
+
+p {
+	font-size: 15px;
+	color: floralwhite;
+	text-align: center;
+	transform: translateY(-50px);
+
+}
+
+#divButtons {
+	color: floralwhite;
+	transform: translateY(200px);
+}
+
+#userTotal {
+	visibility: hidden;
+}
+
+#btn {
+	transform: translateY(150px);
+	padding: 5px;
+}
+
+#getTipPercent {
+	visibility: hidden;
+}
